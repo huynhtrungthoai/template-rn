@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "extends": ["@react-native-community", "prettier"],
+  "plugins": ["babel", "@typescript-eslint", "react", "prettier"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": 2,
+    "react-native/no-inline-styles": 0,
+    "@typescript-eslint/no-explicit-any": 1
+  }
+}
