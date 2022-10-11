@@ -16,17 +16,24 @@
     "clean:ios": "cd ios && xcodebuild clean && cd ../"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
     "@react-navigation/native": "^6.0.13",
     "@react-navigation/stack": "^6.3.2",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
+    "qs": "^6.11.0",
     "react": "18.0.0",
     "react-native": "0.69.0",
     "react-native-device-info": "^10.2.1",
+    "react-native-fast-image": "^8.6.1",
     "react-native-flipper": "^0.163.0",
     "react-native-gesture-handler": "^2.7.0",
     "react-native-safe-area-context": "^4.4.1",
-    "react-native-screens": "^3.18.0"
+    "react-native-screens": "^3.18.0",
+    "react-native-vector-icons": "^9.2.0",
+    "redux-logger": "^3.0.6",
+    "reduxsauce": "^1.2.1",
+    "seamless-immutable": "^7.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -36,6 +43,8 @@
     "@types/lodash": "^4.14.186",
     "@types/react": "^18.0.21",
     "@types/react-native": "^0.70.4",
+    "@types/redux-logger": "^3.0.9",
+    "@types/seamless-immutable": "^7.1.16",
     "babel-jest": "^26.6.3",
     "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "^7.32.0",

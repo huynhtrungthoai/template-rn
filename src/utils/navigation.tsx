@@ -1,8 +1,4 @@
-import {
-  CommonActions,
-  DrawerActions,
-  StackActions,
-} from '@react-navigation/native';
+import { CommonActions, DrawerActions, StackActions } from "@react-navigation/native";
 
 const config: {
   navigator: any;
